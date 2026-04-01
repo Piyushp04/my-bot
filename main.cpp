@@ -58,6 +58,7 @@ std::string askLLM(const std::string& question) {
 }
 
 int main() {
+    // Console banner only; this comment/documentation change does not affect runtime behavior.
     std::cout << "================================" << std::endl;
     std::cout << "   Local LLM Chat (Phi-3.5)    " << std::endl;
     std::cout << "   Type 'exit' to quit          " << std::endl;
